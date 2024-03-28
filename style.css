@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+}
+
+@media screen and (max-width:1440px){
+  
+  p{
+    font-size: 16px;
+  }
+  .card_bg{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    margin-left: 520px; 
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+  .image img{
+    border-radius: 15px;
+    width: 260px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .image{
+    position: absolute;
+  }
+  .eye{
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    margin-left: 20px;
+    background-color: hsla(180, 72%, 57%, 0.572);
+    position: relative;
+    top: 20px;
+    z-index: -1;
+  }
+  .eye img{
+    position: relative;
+    top: 103px;
+    left: 107px;
+  }
+  .image:hover+.eye{
+    z-index: 1;
+    cursor: pointer;
+  }
+  h1{
+    margin-top: 15px;
+  }
+  h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+  .ethereum{
+    width: 10px;
+  }
+  .clock{
+    width: 18px;
+  }
+  .icon-elements{
+    display: flex;
+    justify-content: space-between;
+  }
+  .eth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  h1{
+    font-size: 18px;
+  }
+  .eth p{
+    color: hsl(178, 100%, 50%);
+  }
+  .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .content{
+    /* border: 2px solid red; */
+    width: 260px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .footer img{
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    padding-bottom: 13px;
+  }
+  .footer .fs1{
+    color: hsl(215, 51%, 70%);
+  }
+  .fs2:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+  .para{
+    color: hsl(215, 51%, 70%);
+  }
+  hr{
+    display: block;
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+    background-color:hsl(215, 32%, 27%);
+    opacity: 0.1;
+  }
+
+}
+
+@media screen and (width:360px){
+  
+  .card_bg{
+    margin-left: 35px;
+    margin-top: 60px;
+  }
+
+}
+
+@media screen and (width:375px){
+  
+  .card_bg{
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  
+}
+
+@media screen and (width:320px){
+  
+  .card_bg{
+    margin-left: 12px;
+    margin-top: 31px;
+  }
+  
+}
+
+@media screen and (width:425px){
+  
+  .card_bg{
+    margin-left: 60px;
+    margin-top: 66px;
+  }
+  
+}
+
+
+@media screen and (width:768px){
+  
+  .card_bg{
+    margin-left: 281px;
+    margin-top: 66px;
+  }
+  
+}
+
+@media screen and (width:1024px){
+  
+  .card_bg{
+    margin-left: 357px;
+    margin-top: 66px;
+  }
+  
+}
+
+
